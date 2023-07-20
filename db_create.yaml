@@ -9,9 +9,9 @@
     LD_LIBRARY_PATH: /u01/app/oracle/product/19.3/dbhome_1/lib:/lib:/usr/lib
 
   vars:
-    PDB_NAME: "ENTER_HERE"
+    PDB_NAME: "test"
     DATA_DIR: "/u01/app/oracle"
-    ORACLE_SID: "ENTER_HERE"
+    ORACLE_SID: "test1"
     MEMORY: 24
   tasks:
     - name: Start Oracle Listener using lsnrctl
